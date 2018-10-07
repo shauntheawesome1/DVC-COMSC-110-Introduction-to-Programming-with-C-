@@ -1,0 +1,36 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main(){
+	 ifstream fin;
+
+	string defaultInputFile = "fileContainingEmails.txt";
+	string inputFile;
+	string defaultOutputFile = "copyPasteMyEmails.txt";
+	string outputFile;
+
+	cout << "Enter input filename [default: " << defaultInputFile << "]: ";
+	getline(cin,inputFile);
+	if(inputFile==""){
+		inputFile = defaultInputFile;
+	}
+	cout << "Enter output filename [default: " << defaultOutputFile << "]: ";
+	getline(cin,outputFile);
+	if(outputFile==""){
+			inputFile = defaultOutputFile;
+	}
+	fin.open(inputFile.c_str());
+	ofstream fout;
+    while(fin.good()){
+    string line;
+    getline(fin, line);
+	for (int i = 0; i < line.length(); i++){
+		if(line[i]=='@')
+			cout << line << endl;
+	}
+   }
+    fin.close();
+
+
+}
