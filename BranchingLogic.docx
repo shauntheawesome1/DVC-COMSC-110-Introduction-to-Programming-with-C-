@@ -1,0 +1,38 @@
+Author: Shaun Munshi     Subject: COMSC-110 Introduction to Programming  
+ Assignment: BranchingLogic.docx
+
+10) Write the following labels on the paper:  Item 1, Item 2, Item 3, Item 4, item 5, Item 6, Item 7, Item 8, Sum.
+Write the price of Item 1 under the label “Item 1”
+ If there is no Item 2, re write the number under the label “Item 1” as “Sum”, and Branch to line 90. 
+
+ 20) Write the price of Item 2 under the label “Item 2”
+ Add the numbers under the labels “Item 1” and “Item 2” and write that number under the label of “Sum”.
+ If there is no Item 3, branch to line 100.
+
+30) Write the price of Item 3 under the label “Item 3”
+ Add the numbers under the labels “Item 3” and “Sum” and write that number under the label of “Sum”
+ If there is no Item 4, branch to line 100.
+
+40) Write the price of Item 4 under the label “Item 4”
+ Add the numbers under the labels “Item 4” and “Sum” and write that number under the label of “Sum”
+ If there is no Item 5, branch to line 100.
+
+50) Write the price of Item 5 under the label “Item 5”
+ Add the numbers under the labels “Item 5” and “Sum” and write that number under the label of “Sum”
+If there is no Item 6, branch to line 100.
+
+60) Write the price of Item 6 under the label “Item 6”
+Add the numbers under the labels “Item 6” and “Sum” and write that number under the label of “Sum”
+If there is no Item 7, branch to line 100.
+
+70) Write the price of Item 7 under the label “Item 7”
+Add the numbers under the labels “Item 7” and “Sum” and write that number under the label of “Sum”
+ If there is no Item 8, branch to line 100.
+
+80) Write the price of Item 8 under the label “Item 8”
+Add the numbers under the labels “Item 8” and “Sum” and write that number under the label of “Sum”
+
+
+100) Write a new label on the paper: “Total”
+ Multiply 7.25% (Sales Tax) by the number under the label “Sum”, and add that to the original number of “Sum”. Write this number under the label of “Total”, and round the answer to the nearest penny.
+ Speak confidently, and say “Your total is” the number under the label of “Total”.
